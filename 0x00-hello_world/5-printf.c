@@ -1,10 +1,8 @@
 #include<stdio.h>
 
-/*
+/**
  * main - Entry point
- *
- * Description: 'the function's description'
- *
+ * 
  * Return: Always 0 (success)
  */
 int main(void)

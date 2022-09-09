@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * * main - This is a function that prints a string
- * * Description: This function prints /
- * * whether n is positive or negative
- * * Return: Returns 0
- * */
+ * main - This is a function that prints a string
+ * Description: This function prints /
+ * whether n is positive or negative
+ * Return: Returns 0
+ */
 int main(void)
 {
 	int n;

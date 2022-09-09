@@ -15,30 +15,30 @@ int	main(void)
 	o = '1';
 	p = '2';
 	while (n <= '7')
+	{
+		while (o <= '8')
 		{
-			while (o <= '8')
+			while (p <= '9')
 			{
-				while (p <= '9')
+				if (n < o && o < p)
 				{
-					if (n < o && o < p)																																{	
-						putchar(n);
-						putchar(o);
-						putchar(p);
-						if (n != '7' || o != '8' || p != '9')
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					putchar(n);
+					putchar(o);
+					putchar(p);
+					if (n != '7' || o != '8' || p != '9')
+					{
+						putchar(',');
+						putchar(' ');
 					}
-					p++;
 				}
-				p = '0';
-				o++;
+				p++;
 			}
+			p = '0';
+			o++;
+		}
 		o = '0';
 		n++;
 	}
 	putchar('\n');
 	return (0);
-}	
-
+}

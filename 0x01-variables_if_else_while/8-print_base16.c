@@ -3,7 +3,7 @@
  * main - This is a function that prints a string
  * Description: This function prints /
  * the alphabet in lowercase
- * Return 0
+ * Return: Return 0
  */
 int	main(void)
 {
@@ -24,4 +24,4 @@ int	main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}

@@ -3,12 +3,13 @@
  * main - This is a function that prints a string
  * Description: This function prints /
  * all different combination of two digits
- * Return: Returns 0
+ * Return: Return 0
  */
 int	main(void)
 {
 	int n;
 	int o;
+
 
 	n = '0';
 	o = '1';
@@ -18,13 +19,14 @@ int	main(void)
 		{
 			if (n < o)
 			{
-														putchar(n);																			putchar(o);	
-														if (n != '8' || o != '9')
-														{
-															putchar(',');
-															putchar(' ');
-														}
-													}
+				putchar(n);
+				putchar(o);
+				if (n != '8' || o != '9')
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
 			o++;
 		}
 		o = '0';
@@ -32,4 +34,4 @@ int	main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}

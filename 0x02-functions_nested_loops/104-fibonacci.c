@@ -19,18 +19,18 @@ int main(void)
 
 	printf("1, 2");
 
-	for (count = 0 ; count < 98; count++)
+	for (count = 0 ; count < 96; count++)
 
 	{
 		{
 			k = o + l;
 			l = o;
 			o = k;
-			if (count != 98)
+			if (count != 96)
 				printf(", ");
 			printf("%lu", k);
 		}
 	}
 	printf("\n");
 	return (0);
-}	
+}

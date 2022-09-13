@@ -19,7 +19,7 @@ int main(void)
 
 	printf("1, 2");
 
-	for (count = 0 ; count < 48; count++)
+	for (count = 0 ; count < 98; count++)
 
 	{
 		{

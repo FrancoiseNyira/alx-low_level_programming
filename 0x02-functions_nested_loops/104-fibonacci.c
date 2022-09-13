@@ -1,12 +1,12 @@
-#include "main.h"                                                                                                                       
-#include <stdio.h>                                                                                                                      
-                                                                                                                                        
-/**                                                                                                                                     
- * main - main function                                                                                                                 
- * Description: This program adds /                                                                                                     
- * the natural numbers up to 1024                                                                                                       
- * Return: Returns 0                                                                                                                    
- */
+#include "holberton.h"
+#include <stdio.h>
+
+/**
+ * main - main function
+ * Description: This program adds /
+ * the natural numbers up to 1024
+ * Return: Returns 0
+ */ 
 
 int main(void)
 {

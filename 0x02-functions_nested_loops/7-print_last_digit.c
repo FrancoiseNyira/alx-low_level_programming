@@ -6,7 +6,7 @@
  * the last digit of a number
  * @i: the input
  * Return: Returns 0
- */ 
+ */
 int print_last_digit(int i)
 {
 	int j;

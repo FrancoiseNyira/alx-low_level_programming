@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main main function
- * Descption: This program adds /
+ * main - main function
+ * Description: This program adds /
  * the natural numbers up to 1024
  * Return: Returns 0
  */

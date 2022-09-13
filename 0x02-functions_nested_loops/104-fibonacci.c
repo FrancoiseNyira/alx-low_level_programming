@@ -6,8 +6,7 @@
  * Description: This program adds /
  * the natural numbers up to 1024
  * Return: Returns 0
- */ 
-
+ */
 int main(void)
 {
 	unsigned long count, l, o, k;
